@@ -1,6 +1,9 @@
-import { useBlog } from './useBlog'
+import { Layout } from '@/components/Layout/Layout'
 
 export const Blog = () => {
-  const { posts } = useBlog()
-  return <div>Blog</div>
+  return (
+    <Layout>
+      <h1>Blog</h1>
+    </Layout>
+  )
 }
